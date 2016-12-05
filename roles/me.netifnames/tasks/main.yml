@@ -1,0 +1,11 @@
+---
+
+- copy:
+    src: files/grub
+    dest: /etc/default/grub
+    owner: root
+    group: root
+    mode: 0644
+
+- name: Update grub
+  shell: update-grub

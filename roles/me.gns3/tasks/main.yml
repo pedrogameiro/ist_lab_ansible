@@ -8,6 +8,22 @@
 - name: install gns3
   apt: pkg=gns3-gui state=present
 
+- copy:
+    src: files/applications/gns3.desktop
+    dest: /usr/share/applications/gns3.desktop
+    owner: root
+    group: root
+    mode: 0644
+
+- copy:
+    src: files/icons/
+    dest: /usr/share/icons/
+    owner: root
+    group: root
+
+- name: update-icon-cache
+  shell: update-icon-caches /usr/share/icons/*
+
 - name: copy launcher
   shell: cp /usr/share/applications/gns3.desktop /home/ist/Desktop/gns3.desktop
 

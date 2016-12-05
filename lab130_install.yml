@@ -7,3 +7,4 @@
     - role: me.virtualbox
     - role: jyunderwood.java8
     - role: me.gns3
+    - role: me.netifnames
