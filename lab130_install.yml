@@ -1,0 +1,9 @@
+---
+- hosts: lab130
+  become: true
+  remote_user: deploy
+  roles:
+    - role: me.screensaver
+    - role: me.virtualbox
+    - role: jyunderwood.java8
+    - role: me.gns3

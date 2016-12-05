@@ -1,0 +1,17 @@
+---
+galaxy_info:
+  author: Jonathan Underwood
+  company: jyunderwood.com
+  description: "Installs Java 8 via the webupd8team/java ppa repo"
+  license: MIT
+  min_ansible_version: 1.6
+
+  categories:
+    - packaging
+
+  platforms:
+    - name: Ubuntu
+      versions:
+        - all
+
+dependencies: []

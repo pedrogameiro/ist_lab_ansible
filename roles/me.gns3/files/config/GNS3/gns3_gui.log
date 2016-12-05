@@ -1,0 +1,26 @@
+2016-12-05 14:52:43 INFO logger.py:107 Log level: INFO
+2016-12-05 14:52:43 ERROR __init__.py:144 vmware command not found
+2016-12-05 14:52:43 INFO servers.py:103 New local server connection http://127.0.0.1:3080 registered
+2016-12-05 14:52:43 INFO __init__.py:181 VPCS module reset
+2016-12-05 14:52:43 INFO __init__.py:322 Dynamips module reset
+2016-12-05 14:52:43 INFO __init__.py:262 IOU module reset
+2016-12-05 14:52:43 INFO __init__.py:256 QEMU module reset
+2016-12-05 14:52:43 INFO __init__.py:302 VirtualBox module reset
+2016-12-05 14:52:43 INFO __init__.py:369 VMware module reset
+2016-12-05 14:52:43 INFO __init__.py:193 Docker module reset
+2016-12-05 14:52:43 INFO __init__.py:70 Built-in module reset
+2016-12-05 14:52:43 INFO topology.py:408 Topology reset
+2016-12-05 14:52:44 INFO servers.py:537 Starting local server process with "/usr/bin/gns3server" --host=127.0.0.1 --port=3080 --local --controller --log="/home/ist/.config/GNS3/gns3_server.log" --pid="/home/ist/.config/GNS3/gns3_server.pid"
+2016-12-05 14:52:44 INFO servers.py:550 Local server process has started (PID=14916)
+2016-12-05 14:52:44 INFO __init__.py:181 VPCS module reset
+2016-12-05 14:52:44 INFO __init__.py:322 Dynamips module reset
+2016-12-05 14:52:44 INFO __init__.py:262 IOU module reset
+2016-12-05 14:52:44 INFO __init__.py:256 QEMU module reset
+2016-12-05 14:52:44 INFO __init__.py:302 VirtualBox module reset
+2016-12-05 14:52:44 INFO __init__.py:369 VMware module reset
+2016-12-05 14:52:44 INFO __init__.py:193 Docker module reset
+2016-12-05 14:52:44 INFO __init__.py:70 Built-in module reset
+2016-12-05 14:52:44 INFO topology.py:408 Topology reset
+2016-12-05 14:53:06 INFO local_config.py:294 Section MainWindow has changed. Saving configuration
+2016-12-05 14:53:06 INFO local_config.py:190 Configuration save to /home/ist/.config/GNS3/gns3_gui.conf
+2016-12-05 14:53:08 INFO servers.py:575 Stopping local server (PID=14916)

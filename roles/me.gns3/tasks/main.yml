@@ -1,0 +1,32 @@
+---
+- name: install python-software-properties
+  apt: pkg=python-software-properties state=present update_cache=yes cache_valid_time=300
+
+- name: add gns3 repo
+  apt_repository: repo=ppa:gns3/ppa state=present update_cache=yes
+
+- name: install gns3
+  apt: pkg=gns3 state=present
+
+- name: copy launcher
+  shell: cp /usr/share/applications/gns3.desktop /home/ist/Desktop/gns3.desktop
+
+- file:
+    path: /home/ist/Desktop/gns3.desktop
+    owner: ist
+    group: ist
+    mode: 0755
+
+- copy:
+    src: files/GNS3 
+    dest: /home/ist/
+    owner: ist
+    group: ist
+    mode: 0755
+
+- copy:
+    src: files/config/GNS3 
+    dest: /home/ist/.config/
+    owner: ist
+    group: ist
+    mode: 0755

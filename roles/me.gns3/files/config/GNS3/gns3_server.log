@@ -1,0 +1,10 @@
+2016-12-05 14:52:44 INFO run.py:215 GNS3 server version 1.5.2
+2016-12-05 14:52:44 INFO run.py:217 Copyright (c) 2007-2016 GNS3 Technologies Inc.
+2016-12-05 14:52:44 INFO run.py:220 Config file /home/ist/.config/GNS3/gns3_server.conf loaded
+2016-12-05 14:52:44 INFO run.py:225 Controller mode is enabled.
+2016-12-05 14:52:44 WARNING run.py:228 Local mode is enabled. Beware, clients will have full control on your filesystem
+2016-12-05 14:52:44 INFO run.py:236 Running with Python 3.5.2 and has PID 14916
+2016-12-05 14:52:44 INFO run.py:79 Current locale is pt_PT.UTF-8
+2016-12-05 14:52:44 INFO server.py:241 Starting server on 127.0.0.1:3080
+2016-12-05 14:53:10 WARNING server.py:110 Server has got signal SIGINT, exiting...
+2016-12-05 14:53:10 INFO run.py:266 Remove PID file /home/ist/.config/GNS3/gns3_server.pid

@@ -1,0 +1,10 @@
+[lab130]
+douro ansible_host=172.20.34.79
+tejo ansible_host=172.20.34.40
+guadiana ansible_host=172.20.34.60
+minho ansible_host=172.20.34.18
+mondego ansible_host=172.20.34.72
+sado ansible_host=172.20.34.36
+vouga ansible_host=172.20.34.51
+zezere ansible_host=172.20.34.87
+

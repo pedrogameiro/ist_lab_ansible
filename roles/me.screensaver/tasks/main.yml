@@ -1,0 +1,5 @@
+---
+- name: disable screenlock
+  become: true
+  become_user: ist
+  script: files/run.sh
