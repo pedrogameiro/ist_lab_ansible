@@ -1,5 +1,10 @@
 #!/bin/bash
 
+if [ "$(id -u)" -ne 0 ]; then
+    sudo "$0" "$@"
+    exit
+fi
+
 apt install -y openssh-server
 adduser --disabled-password --gecos "" deploy
 
