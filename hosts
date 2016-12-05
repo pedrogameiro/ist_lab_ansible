@@ -17,3 +17,23 @@ mondego ansible_host=130-mondego.local
 sado ansible_host=130-sado.local
 vouga ansible_host=130-vouga.local
 zezere ansible_host=130-zezere.local
+
+[lab130-ipv6-local]
+fe80::201:6cff:fe6b:a0de
+fe80::92fb:a6ff:fe2d:bb45
+fe80::92fb:a6ff:fe2d:bb75
+fe80::92fb:a6ff:fe2d:bb80
+fe80::201:6cff:fe6b:a10b
+fe80::92fb:a6ff:fe2d:bc38
+fe80::201:6cff:fe6b:a0d4
+fe80::201:6cff:fe6b:a08c
+
+[lab130-ipv6-global]
+2001:690:2100:1034:201:6cff:fe6b:a0de
+2001:690:2100:1034:92fb:a6ff:fe2d:bb45
+2001:690:2100:1034:92fb:a6ff:fe2d:bb75
+2001:690:2100:1034:92fb:a6ff:fe2d:bb80
+2001:690:2100:1034:201:6cff:fe6b:a10b
+2001:690:2100:1034:92fb:a6ff:fe2d:bc38
+2001:690:2100:1034:201:6cff:fe6b:a0d4
+2001:690:2100:1034:201:6cff:fe6b:a08c
