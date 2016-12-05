@@ -6,7 +6,7 @@
   apt_repository: repo=ppa:gns3/ppa state=present update_cache=yes
 
 - name: install gns3
-  apt: pkg=gns3 state=present
+  apt: pkg=gns3-gui state=present
 
 - name: copy launcher
   shell: cp /usr/share/applications/gns3.desktop /home/ist/Desktop/gns3.desktop
