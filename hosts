@@ -8,3 +8,12 @@ sado ansible_host=172.20.34.36
 vouga ansible_host=172.20.34.51
 zezere ansible_host=172.20.34.87
 
+[lab130-mdns]
+douro ansible_host=130-douro.local
+tejo ansible_host=130-tejo.local
+guadiana ansible_host=130-guadiana.local
+minho ansible_host=130-minho.local
+mondego ansible_host=130-mondego.local
+sado ansible_host=130-sado.local
+vouga ansible_host=130-vouga.local
+zezere ansible_host=130-zezere.local
