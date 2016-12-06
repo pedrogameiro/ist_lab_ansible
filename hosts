@@ -1,3 +1,6 @@
+agrserv ansible_host=2001:690:2100:1034:230:48ff:fedf:82de
+agrserv_lan ansible_host=fe80::230:48ff:fedf:82df
+
 [lab130]
 douro ansible_host=172.20.34.79
 tejo ansible_host=172.20.34.40
