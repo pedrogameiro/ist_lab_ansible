@@ -1,42 +1,42 @@
-agrserv ansible_host=2001:690:2100:1034:230:48ff:fedf:82de
-agrserv_lan ansible_host=fe80::230:48ff:fedf:82df
+agrserv ansible_host=2001:690:2100:1034:230:48ff:fedf:82de ansible_user=ist
+agrserv_lan ansible_host=fe80::230:48ff:fedf:82df ansible_user=ist
 
 [lab130]
-douro ansible_host=172.20.34.79
-tejo ansible_host=172.20.34.40
-guadiana ansible_host=172.20.34.60
-minho ansible_host=172.20.34.18
-mondego ansible_host=172.20.34.43
-sado ansible_host=172.20.34.36
-vouga ansible_host=172.20.34.51
-zezere ansible_host=172.20.34.87
+douro ansible_host=172.20.34.79 ansible_user=deploy
+tejo ansible_host=172.20.34.40 ansible_user=deploy
+guadiana ansible_host=172.20.34.60 ansible_user=deploy
+minho ansible_host=172.20.34.18 ansible_user=deploy
+mondego ansible_host=172.20.34.43 ansible_user=deploy
+sado ansible_host=172.20.34.36 ansible_user=deploy
+vouga ansible_host=172.20.34.51 ansible_user=deploy
+zezere ansible_host=172.20.34.87 ansible_user=deploy
 
 [lab130-mdns]
 douro ansible_host=130-douro.local
-tejo ansible_host=130-tejo.local
-guadiana ansible_host=130-guadiana.local
-minho ansible_host=130-minho.local
-mondego ansible_host=130-mondego.local
-sado ansible_host=130-sado.local
-vouga ansible_host=130-vouga.local
-zezere ansible_host=130-zezere.local
+tejo ansible_host=130-tejo.local ansible_user=deploy
+guadiana ansible_host=130-guadiana.local ansible_user=deploy
+minho ansible_host=130-minho.local ansible_user=deploy
+mondego ansible_host=130-mondego.local ansible_user=deploy
+sado ansible_host=130-sado.local ansible_user=deploy
+vouga ansible_host=130-vouga.local ansible_user=deploy
+zezere ansible_host=130-zezere.local ansible_user=deploy
 
 [lab130-ipv6-local]
-fe80::201:6cff:fe6b:a0de
-fe80::92fb:a6ff:fe2d:bb45
-fe80::92fb:a6ff:fe2d:bb75
-fe80::92fb:a6ff:fe2d:bb80
-fe80::201:6cff:fe6b:a10b
-fe80::92fb:a6ff:fe2d:bc38
-fe80::201:6cff:fe6b:a0d4
-fe80::201:6cff:fe6b:a08c
+fe80::201:6cff:fe6b:a0de ansible_user=deploy
+fe80::92fb:a6ff:fe2d:bb45 ansible_user=deploy
+fe80::92fb:a6ff:fe2d:bb75 ansible_user=deploy
+fe80::92fb:a6ff:fe2d:bb80 ansible_user=deploy
+fe80::201:6cff:fe6b:a10b ansible_user=deploy
+fe80::92fb:a6ff:fe2d:bc38 ansible_user=deploy
+fe80::201:6cff:fe6b:a0d4 ansible_user=deploy
+fe80::201:6cff:fe6b:a08c ansible_user=deploy
 
 [lab130-ipv6-global]
-2001:690:2100:1034:201:6cff:fe6b:a0de
-2001:690:2100:1034:92fb:a6ff:fe2d:bb45
-2001:690:2100:1034:92fb:a6ff:fe2d:bb75
-2001:690:2100:1034:92fb:a6ff:fe2d:bb80
-2001:690:2100:1034:201:6cff:fe6b:a10b
-2001:690:2100:1034:92fb:a6ff:fe2d:bc38
-2001:690:2100:1034:201:6cff:fe6b:a0d4
-2001:690:2100:1034:201:6cff:fe6b:a08c
+2001:690:2100:1034:201:6cff:fe6b:a0de ansible_user=deploy
+2001:690:2100:1034:92fb:a6ff:fe2d:bb45 ansible_user=deploy
+2001:690:2100:1034:92fb:a6ff:fe2d:bb75 ansible_user=deploy
+2001:690:2100:1034:92fb:a6ff:fe2d:bb80 ansible_user=deploy
+2001:690:2100:1034:201:6cff:fe6b:a10b ansible_user=deploy
+2001:690:2100:1034:92fb:a6ff:fe2d:bc38 ansible_user=deploy
+2001:690:2100:1034:201:6cff:fe6b:a0d4 ansible_user=deploy
+2001:690:2100:1034:201:6cff:fe6b:a08c ansible_user=deploy
